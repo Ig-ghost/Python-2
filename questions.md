@@ -151,3 +151,95 @@ Here are **5 practice questions** for **Day 6: Error Handling**:
      Output: `"Error: Insufficient funds."`  
    - Input 3: Withdraw amount = `3000`  
      Output: `"Transaction successful. Remaining balance: 2000."`
+---
+Here are **10 intermediate Python programming questions** that cover a variety of topics:
+
+---
+
+### **1. List Manipulation**  
+Write a program to rotate a list to the right by `k` steps.  
+**Input**: `lst = [1, 2, 3, 4, 5], k = 2`  
+**Output**: `[4, 5, 1, 2, 3]`
+
+---
+
+### **2. String Manipulation**  
+Write a program to count the frequency of each character in a string (case-insensitive).  
+**Input**: `"HelloWorld"`  
+**Output**: `{'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}`
+
+---
+
+### **3. Dictionary Operations**  
+Write a program to merge two dictionaries. If a key exists in both, add their values.  
+**Input**:  
+`dict1 = {'a': 10, 'b': 20}, dict2 = {'b': 30, 'c': 40}`  
+**Output**: `{'a': 10, 'b': 50, 'c': 40}`
+
+---
+
+### **4. File Handling**  
+Write a program to read a file and print the top 3 most frequent words along with their frequencies.  
+**Input File**:  
+```
+Python is great. Python is dynamic. Python is fun.
+```
+**Output**:  
+```
+Python: 3  
+is: 3  
+great: 1
+```
+
+---
+
+### **5. Set Operations**  
+Write a program to find all elements that are present in either of the two sets but not in both.  
+**Input**: `set1 = {1, 2, 3, 4}, set2 = {3, 4, 5, 6}`  
+**Output**: `{1, 2, 5, 6}`
+
+---
+
+### **6. Nested Loops**  
+Write a program to generate the following pattern:  
+```
+1  
+1 2  
+1 2 3  
+1 2 3 4  
+1 2 3 4 5
+```
+
+---
+
+### **7. Error Handling**  
+Write a program that takes two inputs and divides the first by the second. Handle cases where the input is not a number or the denominator is zero.  
+
+---
+
+### **8. Sorting**  
+Write a program to sort a list of dictionaries by a key.  
+**Input**:  
+```python
+students = [{'name': 'Alice', 'marks': 85}, {'name': 'Bob', 'marks': 92}, {'name': 'Charlie', 'marks': 78}]
+```  
+**Output**:  
+```python
+[{'name': 'Charlie', 'marks': 78}, {'name': 'Alice', 'marks': 85}, {'name': 'Bob', 'marks': 92}]
+```
+
+---
+
+### **9. Prime Numbers**  
+Write a program to generate all prime numbers between 1 and `n`.  
+**Input**: `n = 20`  
+**Output**: `[2, 3, 5, 7, 11, 13, 17, 19]`
+
+---
+
+### **10. Fibonacci Sequence**  
+Write a program to print the Fibonacci sequence up to the `n`th term using a loop.  
+**Input**: `n = 7`  
+**Output**: `[0, 1, 1, 2, 3, 5, 8]`
+
+--- 
