@@ -243,3 +243,252 @@ Write a program to print the Fibonacci sequence up to the `n`th term using a loo
 **Output**: `[0, 1, 1, 2, 3, 5, 8]`
 
 --- 
+Here are 10 Object-Oriented Programming (OOP) questions focusing on classes, constructors, getters, setters, and access modifiers. These are of intermediate level and avoid advanced concepts.
+
+---
+
+### **1. Basic Class**
+Write a program to define a class `Person` with an attribute `name` and a method `greet` that prints "Hello, my name is [name]".  
+Input: `name = "Alice"`  
+Output:  
+```
+Hello, my name is Alice
+```
+
+---
+
+### **2. Class with Constructor**
+Create a class `Rectangle` with attributes `length` and `breadth`. Write a method `area` that returns the area of the rectangle.  
+Input: `length = 5, breadth = 3`  
+Output:  
+```
+Area: 15
+```
+
+---
+
+### **3. Getters and Setters**
+Define a class `Student` with attributes `name` and `grade`. Use a getter to retrieve the grade and a setter to update it. Ensure the setter validates the grade (must be between 0 and 100).  
+Input:  
+```python
+student.name = "John"
+student.set_grade(85)
+print(student.get_grade())
+```  
+Output:  
+```
+85
+```
+
+---
+
+### **4. Private Attributes**
+Write a program to create a class `BankAccount` with private attributes `balance` and `account_number`. Add a method to display the balance and another method to deposit money, updating the balance.  
+Input:  
+```python
+account.deposit(500)
+account.display_balance()
+```  
+Output:  
+```
+Balance: 500
+```
+
+---
+
+### **5. Public and Private Methods**
+Create a class `Calculator` with a public method `add` and a private method `_square`. Use `add` to add two numbers and internally call `_square` to return the square of the sum.  
+Input: `a = 3, b = 2`  
+Output:  
+```
+Addition: 5
+Square of the sum: 25
+```
+
+---
+
+### **6. Class with Multiple Methods**
+Define a class `Circle` with an attribute `radius`. Add methods to calculate the diameter, circumference, and area of the circle.  
+Input: `radius = 7`  
+Output:  
+```
+Diameter: 14
+Circumference: 43.96
+Area: 153.86
+```
+
+---
+
+### **7. Class with Validation**
+Create a class `Employee` with attributes `name` and `salary`. Use a setter for `salary` to ensure it is not negative. If it is, set it to 0 by default.  
+Input:  
+```python
+emp.set_salary(-5000)
+print(emp.get_salary())
+```  
+Output:  
+```
+Salary: 0
+```
+
+---
+
+### **8. Class with Default Constructor**
+Define a class `Book` with attributes `title`, `author`, and `price`. Use a default constructor to initialize these attributes and a method to display book details.  
+Input:  
+```python
+book.title = "Python Basics"
+book.author = "John Doe"
+book.price = 299
+book.display_details()
+```  
+Output:  
+```
+Title: Python Basics
+Author: John Doe
+Price: 299
+```
+
+---
+
+### **9. Combining Getters and Setters with Computations**
+Create a class `Triangle` with attributes `base` and `height`. Use getters and setters for both. Add a method to compute the area of the triangle using these attributes.  
+Input: `base = 10, height = 5`  
+Output:  
+```
+Area: 25
+```
+
+---
+
+### **10. Class Interaction**
+Write a program with two classes, `Student` and `Subject`. The `Student` class should have a method `add_subject` to store subjects in a list. The `Subject` class should store the name of the subject.  
+Input:  
+```python
+student.add_subject("Math")
+student.add_subject("Science")
+print(student.get_subjects())
+```  
+Output:  
+```
+Subjects: ['Math', 'Science']
+```
+
+---
+Here are **10 Python program questions** that gradually progress from basics to object-oriented programming (OOP). These are slightly above intermediate level to give a good challenge while covering a variety of Python concepts.
+
+---
+
+### **1. Basic: Reverse a String**  
+Write a program to reverse a string without using built-in functions.  
+Input: `"hello"`  
+Output: `"olleh"`
+
+---
+
+### **2. List: Find the Second Largest Number**  
+Write a program to find the second largest number in a list.  
+Input: `[10, 20, 4, 45, 99]`  
+Output: `45`
+
+---
+
+### **3. Dictionary: Frequency Counter**  
+Write a program to count the frequency of each character in a string using a dictionary.  
+Input: `"programming"`  
+Output:  
+```
+{'p': 1, 'r': 2, 'o': 1, 'g': 2, 'a': 1, 'm': 2, 'i': 1, 'n': 1}
+```
+
+---
+
+### **4. Tuples: Swap Two Variables Without Using a Third Variable**  
+Write a program to swap two variables using tuples.  
+Input: `a = 5, b = 10`  
+Output:  
+```
+After swapping: a = 10, b = 5
+```
+
+---
+
+### **5. File Handling: Word Counter**  
+Write a program to count the number of lines, words, and characters in a file.  
+Input: A text file with the content:  
+```
+Hello world
+Python is fun
+```  
+Output:  
+```
+Lines: 2
+Words: 5
+Characters: 25
+```
+
+---
+
+### **6. Functions: Generate Fibonacci Sequence**  
+Write a program to generate the Fibonacci sequence up to the nth term using a function.  
+Input: `n = 7`  
+Output: `[0, 1, 1, 2, 3, 5, 8]`
+
+---
+
+### **7. Error Handling: Handle Division by Zero**  
+Write a program that asks for two numbers and divides them. Use `try` and `except` to handle division by zero errors gracefully.  
+Input:  
+```
+Enter numerator: 10  
+Enter denominator: 0  
+```  
+Output:  
+```
+Error: Cannot divide by zero.
+```
+
+---
+
+### **8. Class with Constructor**  
+Define a class `Rectangle` with attributes `length` and `breadth`. Write a method to calculate the perimeter of the rectangle.  
+Input:  
+```python
+rect = Rectangle(4, 7)
+print(rect.perimeter())
+```  
+Output:  
+```
+22
+```
+
+---
+
+### **9. Private Attributes with Getter and Setter**  
+Create a class `BankAccount` with a private attribute `balance`. Use a getter method to display the balance and a setter method to deposit money (ensure the deposit amount is positive).  
+Input:  
+```python
+account = BankAccount(1000)
+account.deposit(500)
+print(account.get_balance())
+```  
+Output:  
+```
+Balance: 1500
+```
+
+---
+
+### **10. Inheritance: Animal and Dog (will discuss soon)**  
+Write a program with a base class `Animal` that has a method `sound`. Create a derived class `Dog` that overrides the `sound` method to print "Bark".  
+Input:  
+```python
+dog = Dog()
+dog.sound()
+```  
+Output:  
+```
+Bark
+```
+
+---
