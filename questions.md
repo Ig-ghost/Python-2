@@ -492,3 +492,175 @@ Bark
 ```
 
 ---
+Here are **10 Python program questions** focused on **single inheritance**. These include scenarios with and without constructors and basic method overriding.
+
+---
+
+### **1. Inheritance Without Constructor: Parent-Child Relationship**  
+Create a base class `Animal` with a method `eat()` that prints `"Animals eat food"`. Create a derived class `Dog` that inherits from `Animal` and adds a method `bark()` to print `"Dogs bark"`.  
+**Input**:  
+```python
+dog = Dog()
+dog.eat()
+dog.bark()
+```
+
+**Output**:  
+```
+Animals eat food  
+Dogs bark  
+```
+
+---
+
+### **2. Inheritance With Constructor: Parent Initialization in Child**  
+Create a class `Person` with a constructor that initializes `name` and `age`. Create a subclass `Employee` that adds a `job_title` attribute. Display the name, age, and job title.  
+**Input**:  
+```python
+emp = Employee("Alice", 30, "Developer")
+emp.display_info()
+```
+
+**Output**:  
+```
+Name: Alice  
+Age: 30  
+Job Title: Developer  
+```
+
+---
+
+### **3. Method Overriding: Display Information**  
+Create a class `Vehicle` with a method `description()` that prints `"This is a vehicle."`. Override the `description()` method in a derived class `Car` to print `"This is a car."`.  
+**Input**:  
+```python
+v = Vehicle()
+v.description()
+
+c = Car()
+c.description()
+```
+
+**Output**:  
+```
+This is a vehicle.  
+This is a car.  
+```
+
+---
+
+### **4. Parent Method Call in Overridden Method**  
+Modify the previous question so that the overridden `description()` method in the `Car` class also calls the `description()` method from the `Vehicle` class.  
+**Input**:  
+```python
+c = Car()
+c.description()
+```
+
+**Output**:  
+```
+This is a vehicle.  
+This is a car.  
+```
+
+---
+
+### **5. Inheritance Without Constructor: Adding Methods in Child Class**  
+Create a base class `Shape` with a method `area()` that prints `"Calculating area..."`. Create a subclass `Circle` that adds a method `calculate_area(radius)` to calculate and print the area of a circle.  
+**Input**:  
+```python
+circle = Circle()
+circle.area()
+circle.calculate_area(5)
+```
+
+**Output**:  
+```
+Calculating area...  
+Area of the circle: 78.5  
+```
+
+---
+
+### **6. Inheritance With Constructor: Initialize Parent and Child Attributes**  
+Create a base class `Account` with attributes `name` and `balance`. Create a subclass `SavingsAccount` that adds an attribute `interest_rate`. Write a method in `SavingsAccount` to calculate and display interest earned.  
+**Input**:  
+```python
+account = SavingsAccount("John", 1000, 5)
+account.display_interest()
+```
+
+**Output**:  
+```
+Interest earned: 50.0  
+```
+
+---
+
+### **7. Accessing Parent Method from Child**  
+Create a base class `Device` with a method `power_on()` that prints `"Device is powering on."`. Create a subclass `Phone` that overrides `power_on()` to print `"Phone is powering on."`, but also calls the parent method.  
+**Input**:  
+```python
+p = Phone()
+p.power_on()
+```
+
+**Output**:  
+```
+Device is powering on.  
+Phone is powering on.  
+```
+
+---
+
+### **8. Single Inheritance Without Constructor: Extending Functionality**  
+Create a class `Book` with a method `details()` that prints `"Books contain knowledge."`. Create a subclass `EBook` that adds a method `download()` to print `"Downloading ebook..."`.  
+**Input**:  
+```python
+ebook = EBook()
+ebook.details()
+ebook.download()
+```
+
+**Output**:  
+```
+Books contain knowledge.  
+Downloading ebook...  
+```
+
+---
+
+### **9. Single Inheritance With Constructor and Overriding**  
+Create a class `Animal` with a constructor that initializes `name`. Create a subclass `Bird` that overrides the constructor to also include `can_fly` attribute and display both values.  
+**Input**:  
+```python
+bird = Bird("Parrot", True)
+bird.display_info()
+```
+
+**Output**:  
+```
+Name: Parrot  
+Can Fly: True  
+```
+
+---
+
+### **10. Method Overriding and Adding New Methods**  
+Create a base class `BankAccount` with a method `withdraw()` that prints `"Withdraw from BankAccount"`. Create a subclass `CurrentAccount` that overrides `withdraw()` and adds a new method `overdraft_limit()`.  
+**Input**:  
+```python
+account = CurrentAccount()
+account.withdraw()
+account.overdraft_limit()
+```
+
+**Output**:  
+```
+Withdraw from CurrentAccount  
+Overdraft limit is $500  
+```
+
+---
+
+These questions cover single inheritance with constructors, method overriding, and basic use of parent and child class methods. Let me know if you need solutions or further clarification! 😊
